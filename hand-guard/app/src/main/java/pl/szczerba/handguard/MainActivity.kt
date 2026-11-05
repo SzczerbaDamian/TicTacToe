@@ -41,7 +41,7 @@ class MainActivity : Activity() {
 
         restrictedHint = TextView(this).apply {
             textSize = 14f
-            text = "Pozycja Hand Guard w Ułatwieniach dostępu jest szara? " +
+            text = "Pozycja Hand w Ułatwieniach dostępu jest szara? " +
                 "Stuknij ją raz (pojawi się „Restricted setting”), potem tutaj " +
                 "„Odblokuj ustawienia z ograniczeniami” → ⋮ (prawy górny róg) → " +
                 "„Allow restricted settings”. Na koncie z Family Link może to wymagać zgody rodzica."
@@ -153,7 +153,7 @@ class MainActivity : Activity() {
         val json = Store.exportJson().toString(2)
         val send = Intent(Intent.ACTION_SEND)
             .setType("text/plain")
-            .putExtra(Intent.EXTRA_SUBJECT, "Hand Guard – dane")
+            .putExtra(Intent.EXTRA_SUBJECT, "Hand – dane")
             .putExtra(Intent.EXTRA_TEXT, json)
         startActivity(Intent.createChooser(send, "Udostępnij dane"))
     }

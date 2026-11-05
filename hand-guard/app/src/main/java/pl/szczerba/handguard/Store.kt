@@ -257,7 +257,7 @@ object Store {
         val g = JSONArray()
         for (gap in gaps) g.put(gap.toJson())
         return JSONObject()
-            .put("app", "Hand Guard (telefon)")
+            .put("app", "Hand")
             .put("exportedAt", System.currentTimeMillis())
             .put("days", d)
             .put("gaps", g)

@@ -1,4 +1,4 @@
-# Hand Guard (telefon)
+# Hand
 
 Android app that measures how hard you use your hands on the phone: clicks,
 scrolling, typing, physical keys, screen-on time, per app and per hour.

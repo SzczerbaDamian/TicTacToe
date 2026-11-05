@@ -41,6 +41,6 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release view hand-guard-latest >/dev/null 2>&1 || \
-            gh release create hand-guard-latest --title "Hand Guard (latest)" --prerelease \
-              --target "$GITHUB_SHA" --notes "Newest build of Hand Guard. Download HandGuard.apk."
+            gh release create hand-guard-latest --title "Hand (latest)" --prerelease \
+              --target "$GITHUB_SHA" --notes "Newest build of Hand. Download HandGuard.apk."
           gh release upload hand-guard-latest HandGuard.apk --clobber

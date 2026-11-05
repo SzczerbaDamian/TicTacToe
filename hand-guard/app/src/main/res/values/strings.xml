@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hand Guard (telefon)</string>
-    <string name="service_label">Hand Guard – zbieranie danych</string>
+    <string name="app_name">Hand</string>
+    <string name="service_label">Hand – zbieranie danych</string>
     <string name="service_description">Liczy kliknięcia, przewijanie i pisanie w aplikacjach, żeby mierzyć obciążenie rąk. Nie czyta treści ekranu ani tego, co piszesz.</string>
 </resources>
